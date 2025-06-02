@@ -34,7 +34,7 @@ export default function AboutPage() {
             </div>
             <div className="md:col-span-2 p-8 md:p-0">
               <h2 className="font-headline text-3xl font-bold text-primary mb-6">
-                Sampath - MERN Stack & Next.js Developer
+                <span className="text-accent">S</span>ampath - MERN Stack & Next.js Developer
               </h2>
               <div className="space-y-4 text-foreground/80 prose prose-lg max-w-none font-body">
                 <p>

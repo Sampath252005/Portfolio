@@ -10,7 +10,7 @@ export default function HomePage() {
       <section className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">
-            Hi, I'm Sampath
+            Hi, I'm <span className="text-accent">S</span>ampath
           </h1>
           <p className="text-lg md:text-xl text-foreground/80">
             A passionate MERN Stack and Next.js developer, crafting seamless and engaging digital experiences. Welcome to my creative canvas where ideas come to life through code.

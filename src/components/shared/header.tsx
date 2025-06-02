@@ -34,7 +34,7 @@ export function Header() {
             <Link
               key={item.label}
               href={item.href}
-              className="text-sm font-medium text-foreground/80 hover:text-primary transition-colors"
+              className="text-sm font-medium text-foreground/80 hover:text-primary hover:underline underline-offset-4 transition-colors"
             >
               {item.label}
             </Link>
@@ -55,7 +55,7 @@ export function Header() {
                     <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
                         <Code className="h-6 w-6 text-primary" />
                         <span className="font-headline text-lg font-bold text-primary">
-                            Sampath's Canvas
+                            Sampath's Digital Canvas
                         </span>
                     </Link>
                     <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
@@ -69,7 +69,7 @@ export function Header() {
                       key={item.label}
                       href={item.href}
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors"
+                      className="text-lg font-medium text-foreground hover:text-primary hover:underline underline-offset-4 transition-colors"
                     >
                       {item.label}
                     </Link>
