@@ -3,14 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { BackButton } from "@/components/shared/back-button";
 
 export default function HomePage() {
   return (
     <div className="container py-12 md:py-20">
-      <div className="mb-8">
-        <BackButton />
-      </div>
       <section className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary tracking-tight">
