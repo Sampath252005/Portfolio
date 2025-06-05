@@ -24,7 +24,7 @@ export default function AboutPage() {
           <CardContent className="p-0 md:p-8 md:grid md:grid-cols-3 md:gap-12 items-center">
             <div className="md:col-span-1 p-8 md:p-0">
               <Image
-                src="https://placehold.co/600x750.png"
+                src="/portfolio.jpeg"
                 alt="Sampath - Portrait"
                 width={600}
                 height={750}

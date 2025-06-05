@@ -28,11 +28,11 @@ export default function HomePage() {
         </div>
         <div className="relative aspect-square max-w-md mx-auto md:max-w-none">
            <Image
-            src="https://placehold.co/600x600.png"
+            src="/portfolio.jpeg"
             alt="Sampath - Web Developer"
             width={600}
             height={600}
-            className="rounded-lg shadow-2xl object-cover"
+            className="rounded-full- shadow-2xl object-cover"
             data-ai-hint="developer portrait"
             priority
           />
